@@ -1,0 +1,16 @@
+git:
+  remote: git@github.com:jangcs/model_m9-linux.git
+dvc:
+  remote: gs://cr-model-test/model_m9-linux
+platform:
+  architecture: x86_64
+  os: linux
+  version: ''
+  device: cpu
+model:
+  name: model_m9
+  tag: linux
+#labels : 
+#  label_key1: lavel_value1
+#  label_key2: lavel_value2
+#  resolution: 640x480(sample)
